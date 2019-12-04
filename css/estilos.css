@@ -1,0 +1,130 @@
+*{
+    color: darkgreen;
+}
+
+body{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+p{
+    
+}
+
+h2{
+    color: cornflowerblue;
+}
+
+a:hover{
+    background: #0f9b0f;
+    color: aqua;
+
+}
+
+/*Enlaces*/
+
+/* estado del enlace, cambia de color cuando se pasa el mouse por encima*/
+a:hover{
+
+    text-decoration: none;
+}
+
+
+/* estado del enlace mientras esta haciendo clickl*/
+a:active{
+    text-decoration: none;
+}
+
+
+/*para cambiar el estilo de los link que aun no se han visitado*/
+a:link{
+    text-decoration: none;
+}
+
+
+/*para cambiar el formato de los link que ya se visitaron..*/
+
+a:visited{
+    text-decoration: none;
+}
+
+/* Textos */
+
+
+h2{
+    /*Para cambiar tipo de letra*/
+   font-family: Arial, Helvetica, sans-serif;
+
+   /*Font size =Tamaño de la letra*/
+   font-size: 20px;
+
+   /*tipo de fuente*/
+   font-style: italic;
+
+   /*cambiar el ancho de la fuente, ejemplo cuando esta en negrilla*/
+   font-weight: bold;
+
+   /*color del texto*/
+   color: blue;
+
+   /*cambiar la posicion del texto*/
+   text-align: center;
+
+   /*subrayar el texto*/
+   text-decoration: underline;
+
+   /*Para cambiar a mayusculas o minusculas, y  capitalize es para poner cada letra de palabra en mayuscula*/
+   text-transform: uppercase;
+
+
+} /* Cierre de textos*/
+
+/*Unidades de Medida
+
+px
+em  = 1 em equivale al tamaño de fuente el contenedor padre. ejemplo si en el body tenemos que el tamaño es de 
+20px a eso equivale.
+rem 
+%
+
+*/
+
+
+
+
+
+
+/*
+Font size =Tamaño de la letra
+font-decoration: none= Se quieta el subrayado en los ensaleces.
+
+a:hover = para cuando pasen el mouse por encima del enlace, cambia de color.
+a:link = para cambiar el estilo de los link que aun no se han visitado.
+a:visited = para cambiar el formato de los link que ya se visitaron.
+a:active = para cambiar formato de link cuando se de click en el enlace.
+
+// si le ponemos div p{}= Esto nos hace un filtro y nos hace todo lo que este en los parrafos dentro de un Div
+ 
+p a{
+ } = esto significa que todos los enlaces que esten dentro de un parrafo
+
+ Con un punto seleccionamos lo que esta en el nombre de una clase. Ejemplo:
+ 
+ .grande{
+
+ }
+
+ con un signo numero # seleccionamos lo que esta dentro de un id. Ejemplo
+#grande{
+} Nota: los ID solo los debes de utilizar para una sola cosa, no para etiquetas generales.
+
+background=Para fondo de imagenes
+background-size: para cuadrar el tamaño de la imagen.
+background-attachment= scroll= para que el fondo pueda bajar y subir con el fondo
+background-attachment=fixed= para que el fondo se queda estatico.
+background-position= para cuadrar el fondo dependiendo los pixeles.
+
+
+
+
